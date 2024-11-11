@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html">Go back to main page</a>
+    </header>
+    <main>
+        <form>
+            <legend>
+                Add a new character to <span>Building Status</span>
+            </legend>
+            <fieldset>
+                <label  class="name"  for="name">
+                    Character Name:
+                </label>
+                <input name="name" id="name" class="form-name" type="text" minlength="1" required/>
+                <span class="invalid-message"></span>
+            </fieldset>
+            <fieldset>
+                <label  class="normal-attack"  for="normal-attack">
+                    Character Normal Attack Level:
+                </label>
+                <input name="normal-attack" id="normal-attack" class="form-normal-attack" type="number" minlength="1" required/>
+                <span class="invalid-message"></span>
+            </fieldset>
+            <fieldset>
+                <label  class="elemental-skill"  for="elemental-skill">
+                    Character Elemental Skill Level:
+                </label>
+                <input name="elemental-skill" id="elemental-skill" class="form-elemental-skill" type="number" minlength="1" required/>
+                <span class="invalid-message"></span>
+            </fieldset>
+            <fieldset>
+                <label  class="elemental-burst"  for="elemental-burst">
+                    Character Elemental Burst Level:
+                </label>
+                <input name="elemental-burst" id="elemental-burst" class="form-elemental-burst" type="number" minlength="1" required/>
+                <span class="invalid-message"></span>
+            </fieldset>
+            <div>
+                <input type="submit" placeholder="Add characer" />
+            </div>
+        </form>
+    </main>
+</body>
+</html>
